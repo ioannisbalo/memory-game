@@ -1,0 +1,13 @@
+{
+  "name": "memory-game",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start-api": "cd api; yarn start",
+    "start-ui": "cd ui; yarn start",
+    "docker": "docker-compose up -d --build"
+  },
+  "repository": "git@github.com:ioannisbalo/memory-game.git",
+  "author": "john-blmns@protonmail.com",
+  "license": "MIT"
+}

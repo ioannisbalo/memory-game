@@ -1,0 +1,6 @@
+[submodule "ui"]
+	path = ui
+	url = https://github.com/ioannisbalo/memory-game-ui.git
+[submodule "api"]
+	path = api
+	url = https://github.com/ioannisbalo/memory-game-api.git

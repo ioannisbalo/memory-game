@@ -1,0 +1,17 @@
+version: '3.4'
+services:
+  memory-game-api:
+    container_name: memory-game-api
+    build: api
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./api/src:/usr/src/app/src
+  
+  memory-game-ui:
+    container_name: memory-game-ui
+    build: ui
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./ui/src:/usr/src/app/src
